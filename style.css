@@ -1,0 +1,121 @@
+*{
+    /* background-color: aliceblue; */
+
+box-sizing: border-box;
+font-family: "IBM Plex Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+font-size: 15px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Navigation bar */
+.nav{
+    margin: 20px 150px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav img{
+    scale: 0.8;
+}
+nav ul li:first-child{
+    color: #20bc7e;
+}
+.items{ 
+    display: flex;
+float: right;
+}
+.items li{
+    margin-left: 32px;
+
+}
+.topAngle{
+    width: 8%;
+}
+.bottomAngle {
+    width: 25px;
+    position: relative;
+    left: 400px;
+    top: 6px;
+  }
+  
+  .stethoscope {
+  z-index: -1;
+  position: absolute;
+  top:50px;
+  width: 10%;
+  height: 60%;
+  right: 100px;
+
+width: 90%;
+/* height: 300px; */
+
+  }
+  
+/* Main */
+.main{
+    display: flex;
+    /* margn: 100px; */
+}
+.leftmain{
+    width: 25vw;
+    margin: 150px 10px 0px 200px;
+    display: flex;
+    flex-direction: column;
+}
+.leftmain p{
+    font-size: 43px;
+    font-weight: 900;
+}
+.leftmain summary{
+font-size: 15px;
+margin-top: 10px;
+}
+.leftmain button{
+    margin-top: 10px;
+    border-radius: 39px;
+    background-color: #20bc7e;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right{
+    /* position: relative; */
+    float: right;
+    /* right: 1px; */
+}
+.greenBox,
+.yellowBox {
+  position: absolute;
+  right: 0;
+}
+
+.greenBox {
+  width: 35%;
+  bottom: 30px;
+  z-index: 2;
+}
+
+.yellowBox {
+  width: 30%;
+  bottom: 26px;
+ right: -5px;
+  z-index: 3;
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+  z-index: 4;
+}
